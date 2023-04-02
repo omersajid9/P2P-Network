@@ -1,0 +1,59 @@
+﻿  Main.c
+C:\Users\HP\web3-projects\serverProject\Main.c(38,9): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 1 has type 'int'
+  HTTPServer.c
+C:\Users\HP\web3-projects\serverProject\networking\nodes\HTTPServer.c(51,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char *'
+C:\Users\HP\web3-projects\serverProject\networking\nodes\HTTPServer.c(51,9): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'char *'
+C:\Users\HP\web3-projects\serverProject\networking\nodes\HTTPServer.c(52,14): error C2057: expected constant expression
+C:\Users\HP\web3-projects\serverProject\networking\nodes\HTTPServer.c(52,25): error C2466: cannot allocate an array of constant size 0
+C:\Users\HP\web3-projects\serverProject\networking\nodes\HTTPServer.c(52,7): error C2133: 'buffer': unknown size
+C:\Users\HP\web3-projects\serverProject\networking\nodes\HTTPServer.c(56,49): error C2057: expected constant expression
+C:\Users\HP\web3-projects\serverProject\networking\nodes\HTTPServer.c(56,60): error C2466: cannot allocate an array of constant size 0
+C:\Users\HP\web3-projects\serverProject\networking\nodes\HTTPServer.c(56,62): warning C4034: sizeof returns 0
+C:\Users\HP\web3-projects\serverProject\networking\nodes\HTTPServer.c(86,52): error C2057: expected constant expression
+C:\Users\HP\web3-projects\serverProject\networking\nodes\HTTPServer.c(86,68): error C2466: cannot allocate an array of constant size 0
+C:\Users\HP\web3-projects\serverProject\networking\nodes\HTTPServer.c(86,70): warning C4034: sizeof returns 0
+  Server.c
+C:\Users\HP\web3-projects\serverProject\networking\nodes\Server.c(30,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+C:\Users\HP\web3-projects\serverProject\networking\nodes\Server.c(30,10): warning C4313: 'printf': '%s' in format string conflicts with argument 1 of type 'int'
+  HTTPRequest.c
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(17,17): error C2057: expected constant expression
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(17,39): error C2466: cannot allocate an array of constant size 0
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(17,7): error C2133: 'requested': unknown size
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(48,14): error C2057: expected constant expression
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(48,34): error C2466: cannot allocate an array of constant size 0
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(48,7): error C2133: 'fields': unknown size
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(57,75): error C2057: expected constant expression
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(57,89): error C2466: cannot allocate an array of constant size 0
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(57,91): warning C4034: sizeof returns 0
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(58,66): error C2057: expected constant expression
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(58,77): error C2466: cannot allocate an array of constant size 0
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(58,79): warning C4034: sizeof returns 0
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(59,93): error C2057: expected constant expression
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(59,113): error C2466: cannot allocate an array of constant size 0
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(59,115): warning C4034: sizeof returns 0
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(71,14): error C2057: expected constant expression
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(71,34): error C2466: cannot allocate an array of constant size 0
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(71,7): error C2133: 'fields': unknown size
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(97,58): error C2057: expected constant expression
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(97,69): error C2466: cannot allocate an array of constant size 0
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(97,71): warning C4034: sizeof returns 0
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(97,85): error C2057: expected constant expression
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(97,98): error C2466: cannot allocate an array of constant size 0
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(97,100): warning C4034: sizeof returns 0
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(119,36): error C2057: expected constant expression
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(119,49): error C2466: cannot allocate an array of constant size 0
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(119,51): warning C4034: sizeof returns 0
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(133,48): error C2057: expected constant expression
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(133,59): error C2466: cannot allocate an array of constant size 0
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(133,61): warning C4034: sizeof returns 0
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(133,75): error C2057: expected constant expression
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(133,88): error C2466: cannot allocate an array of constant size 0
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(133,90): warning C4034: sizeof returns 0
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(142,65): error C2057: expected constant expression
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(142,77): error C2466: cannot allocate an array of constant size 0
+C:\Users\HP\web3-projects\serverProject\networking\protocols\HTTPRequest.c(142,79): warning C4034: sizeof returns 0
+  ThreadPool.c
+C:\Users\HP\web3-projects\serverProject\system\ThreadPool.c(14,51): error C2057: expected constant expression
+C:\Users\HP\web3-projects\serverProject\system\ThreadPool.c(14,62): error C2466: cannot allocate an array of constant size 0
+C:\Users\HP\web3-projects\serverProject\system\ThreadPool.c(14,64): warning C4034: sizeof returns 0
+  Generating Code...
